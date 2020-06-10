@@ -11,7 +11,7 @@
     {{-- Hojas de estilo --}}
     <link href="{!! asset('css/bootstrap.min.css') !!}" rel="stylesheet">
     <link href="{!! asset('font-awesome/css/font-awesome.css') !!}" rel="stylesheet">
-
+    <link href="{{!!asset('css/plugins/dataTables/datatables.min.css') !!}" rel="stylesheet">
     <link href="{!! asset('css/animate.css') !!}" rel="stylesheet">
     <link href="{!! asset('css/style.css') !!}" rel="stylesheet"> 
     
@@ -51,6 +51,8 @@
 <script src="{!! asset( 'js/bootstrap.min.js') !!}"></script>
 <script src="{!! asset( 'js/plugins/metisMenu/jquery.metisMenu.js') !!}"></script>
 <script src="{!! asset( 'js/plugins/slimscroll/jquery.slimscroll.min.js') !!}"></script>
+<script src="{!! asset( 'js/plugins/dataTables/datatables.min.js') !!}"></script>
+<script src="{!! asset( 'js/plugins/dataTables/dataTables.bootstrap4.min.js') !!}"></script>
 
 <!-- Custom and plugin javascript -->
 <script src="{!! asset( 'js/inspinia.js') !!}"></script>
